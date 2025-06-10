@@ -1,0 +1,16 @@
+
+<div>
+<p>counter works!</p>
+<!--
+    Represents a variable named 'itt'.
+    The purpose and usage of 'itt' should be clarified based on its context in the code.
+    Consider specifying the type, expected values, and its role within the application.
+-->
+<ul>
+    <li *ngFor="let item of items ;let i = index ; ">{{i+1}} {{item}} </li>
+</ul>
+
+<ul>
+    <li *ngFor="let item of items ;let firstys  = first">
+       <strong *ngIf ='firstys'>First:</strong> {{item}} </li>
+</ul>
